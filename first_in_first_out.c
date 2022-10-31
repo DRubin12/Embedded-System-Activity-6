@@ -6,6 +6,7 @@ int led4 = 10;
 int led5 = 9;
 int led6 = 8;
 
+// Led Output
 void setup()
 {
 
@@ -17,6 +18,8 @@ void setup()
   pinMode(led6, OUTPUT);
  
 }
+
+// Process Code
 void loop()
 
 {
